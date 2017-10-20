@@ -218,3 +218,6 @@ session.vim
 Output/
 List/
 Crazepony.uvgui.Administrator
+
+# With Makefile
+*.o
