@@ -22,7 +22,7 @@ Tim.c file
 */
 #include "tim.h"
 #include "config.h"
-#include "imu.h"
+#include "User_Src/imu.h"
 #include "control.h"
 
 #define TASK_TICK_FREQ				1000			//Hz 主任务频率

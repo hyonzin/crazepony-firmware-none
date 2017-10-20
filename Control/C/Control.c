@@ -27,7 +27,7 @@
 #include "math.h"
 #include "sys_fun.h"
 #include "mpu6050.h"
-#include "imu.h"
+#include "User_Src/imu.h"
 #include "extern_variable.h"
 #include "led.h"
 #include "stmflash.h"
@@ -36,7 +36,7 @@
 #include "Battery.h"
 #include "stdio.h"
 #include "BT.h"
-#include "Altitude.h"
+#include "User_Src/Altitude.h"
 #include "SysConfig.h"
 
 extern uint32_t micros(void);
