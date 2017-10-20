@@ -21,8 +21,7 @@ VECTOR	= StartUp/startup_stm32f10x_md.s
 
 LDFLAGS  = -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -lnosys -Wl,--gc-sections -Wl,-Map,$(PROJECT).map
 
-INC = -I.\
-	  -IControl/C\
+INC = -IControl/C\
       -IControl/H\
       -IHardWareDriver/C\
       -IHardWareDriver/H\
