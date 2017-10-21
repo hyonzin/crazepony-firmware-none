@@ -221,3 +221,5 @@ Crazepony.uvgui.Administrator
 
 # With Makefile
 *.o
+*.map
+
